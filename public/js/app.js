@@ -1,5 +1,3 @@
-console.log("Client side javascript file is loaded");
-
 const getWeather = (location, callback) => {
   fetch(
     "http://localhost:3000/api/weather?location=" + encodeURIComponent(location)
